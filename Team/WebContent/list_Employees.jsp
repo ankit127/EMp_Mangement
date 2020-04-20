@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-<%@ page import="java.util.*, com.luv2code.web.jdbc.*" %>
-<!DOCTYPE html>
-<html>
-
-<head>
-	<title>Employee Tracker App</title>
-	<link rel = "stylesheet" type = "text/css" href = "style.css" />	
-</head>
-
-<%
-	// get the students from the request object (sent by servlet)
-	List<Employee> theStudents = 
-					(List<Employee>) request.getAttribute("STUDENT_LIST");
-%>
-
-<body>
-
-	<div id="wrapper">
-		<div id="header">
-			<h2>Employee System</h2>
-		</div>
-	</div>
-
-	<div id="container">
-	
-		<div id="content">
-		
-=======
 <%@ page import="java.util.*" %>
 <%@ page import="com.luv2code.web.jdbc.*" %>
 <!DOCTYPE html>
@@ -66,7 +37,7 @@
 		        |
 		        <a href="Search_Employee.jsp">Search Employee</a>
 		        
->>>>>>> refs/heads/master
+
 			<table border="3">
 			
 				<tr bgcolor="RED">
