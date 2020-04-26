@@ -158,7 +158,7 @@ public class EmployeeControllerServlet extends HttpServlet {
 				String firstName = request.getParameter("firstName");
 				String lastName = request.getParameter("lastName");
 				String email = request.getParameter("email");
-				String state = request.getParameter("state");
+				String state = (String)request.getParameter("state");
 				
 				// create a new student object
 				Employee theEmployee = new Employee(firstName, lastName, email,state);
