@@ -47,9 +47,14 @@
 					
 					<tr>
 						<td><label>State:</label></td>
-						<td><input type="text" name="state" /></td>
-					</tr>
-					
+						<td><select id="state" name="state">
+								<option value="">None</option>
+								<option value="Maharastra">Maharastra</option>
+								<option value="Bihar">Bihar</option>
+								<option value="UP">UP</option>
+								<option value="MP">MP</option>
+						</select></td>
+					</tr>					
 					<tr>
 						<td><label></label></td>
 						<td><input type="submit" value="Save" class="save" /></td>
